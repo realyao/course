@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+
+
+/* 4.box区域 */
+.box {
+    margin-top: 30px;
+}
+
+.box-hd {
+    height: 45px;
+    line-height: 45px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+
+.box-hd a {
+    float: right !important;
+    margin-right: 30px;
+
+    color: #bcbcbd;
+    font-size: 12px;
+}
+
+/* 增大ul宽度，防止盒子掉下去 */
+.box-bd ul {
+    width: 1225px;
+}
+
+.box-bd ul li {
+    position: relative;
+    float: left;
+    width: 228px;
+    height: 250px;
+    background-color: rgb(219, 206, 206);
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.box-bd ul li>img {
+    width: 228px;
+    height: 150px;
+}
+
+.box-bd ul li em {
+    position: absolute;
+    top: 5px;
+    right: -2px;
+}
+
+.box-bd ul li h4 {
+    margin: 20px 20px 20px 25px;
+    font-size: 16px;
+    color: #050505;
+    font-weight: 400;
+}
+
+.box-bd ul li p {
+    font-size: 12px;
+    color: rgb(82, 82, 82);
+    margin: 0 20px 0 25px;
+}
+
+.box-bd ul li p span {
+    color: #ffa57b;
+}
+
+.table1 {
+    margin-left: 90px;
+}
+
+.table1 td {
+    border-right: 0.5px solid rgba(99, 94, 94, 0.39);
+}
