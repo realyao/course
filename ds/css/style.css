@@ -1966,7 +1966,7 @@ body {
 	font-weight: 400;
 	color: #444;
 	display: block;
-	overflow: hidden;
+	/* overflow: hidden; */
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }

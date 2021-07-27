@@ -17,7 +17,7 @@ var footer = function(){
                 '<li> <a href="#" target="_blank">意见反馈</a></li>'+
                 '<li> <a href="#" target="_blank">友情链接</a></li>'+
             '</ul>'+
-        '<p class="clear ln_copy">Copyright 2021 LBDS All Rights Reserved | 鄂ICP备 xxxxxxxx号-1</p>'+
+        '<p class="clear ln_copy">Copyright &copy; 2021 中国地质大学（武汉）计算机学院 | 鄂ICP备 xxxxxxxx号-1</p>'+
         '</div>'+
         '<div class="right bottom_netlink">'+
         '<div class="ln_copy_ewm"></div>'+
