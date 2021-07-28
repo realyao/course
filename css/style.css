@@ -139,16 +139,18 @@
  ****************************/
 .banner {
   width: 100%;
-  height: 300px !important;
+  height: 500px !important;
   padding: 5% 0 0 0;
   position: relative;
-  /* background: url(../image/tiyuguan.png) no-repeat center; */
   background: #0574d0;
+  background: url(../image/banner.png) no-repeat center;
+  
   background-size: 100% 100%;
 }
 
 .banner .slogan {
   top: 0px;
+  margin-top: 120px;
   text-align: center;
 }
 
